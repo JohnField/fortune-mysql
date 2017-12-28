@@ -3,10 +3,10 @@ sudo: false
 language: node_js
 
 addons:
-  postgresql: "9.4"
+  mysql: "5.7"
 
 # before_script:
-#   - psql -c 'create database fortune_test;' -U postgres
+#   - mysql -c 'create database fortune_test;'
 
 node_js:
   - "4.6"
