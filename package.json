@@ -1,16 +1,16 @@
 {
-  "name": "fortune-postgres",
-  "description": "Postgres adapter for Fortune.",
-  "version": "1.6.3",
+  "name": "fortune-mysql",
+  "description": "MySQL adapter for Fortune.",
+  "version": "1.6.4",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fortunejs/fortune-postgres"
+    "url": "https://github.com/JohnField/fortune-mysql"
   },
   "scripts": {
     "lint": "eslint lib test",
     "test": "npm run lint && node test",
-    "postpublish": "git tag `npm v fortune-postgres version` && git push origin --tags"
+    "postpublish": "git tag `npm v fortune-mysql version` && git push origin --tags"
   },
   "main": "./lib/index.js",
   "dependencies": {
@@ -42,8 +42,7 @@
   },
   "keywords": [
     "fortune",
-    "postgres",
-    "postgresql",
+    "mysql",
     "sql",
     "adapter"
   ]
