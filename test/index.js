@@ -2,7 +2,7 @@ const testAdapter = require('fortune/test/adapter')
 const adapter = require('../lib')
 
 testAdapter(adapter, {
-  url: 'postgres://postgres@localhost:5432/fortune_test',
+  url: 'mysql://mysql@localhost:3306/fortune_test',
   primaryKeyType: 'integer',
   useForeignKeys: true,
   // isNative: true,
